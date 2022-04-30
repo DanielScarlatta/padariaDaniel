@@ -69,6 +69,11 @@ public class TelaLogin extends javax.swing.JFrame {
                 btnEntrarActionPerformed(evt);
             }
         });
+        btnEntrar.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                btnEntrarKeyPressed(evt);
+            }
+        });
         getContentPane().add(btnEntrar);
         btnEntrar.setBounds(10, 150, 100, 30);
 
@@ -153,6 +158,10 @@ public class TelaLogin extends javax.swing.JFrame {
             btnEntrar.doClick(); //Método que tienes que crearte
         }
     }//GEN-LAST:event_pswSenhaKeyPressed
+
+    private void btnEntrarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnEntrarKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEntrarKeyPressed
 
     /**
      * @param args the command line arguments
